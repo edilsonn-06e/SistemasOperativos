@@ -599,6 +599,24 @@
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
 			null
+		],
+		[
+			"/home/edilson/Escritorio/sistemas operativos/SO_Suite/SO_Suite/scheduler/FCFS.h",
+			"MU",
+			"YKU7OS2FB7/moc_FCFS.cpp",
+			null
+		],
+		[
+			"/home/edilson/Escritorio/sistemas operativos/SO_Suite/SO_Suite/scheduler/SJF.h",
+			"MU",
+			"YKU7OS2FB7/moc_SJF.cpp",
+			null
+		],
+		[
+			"/home/edilson/Escritorio/sistemas operativos/SO_Suite/SO_Suite/scheduler/SRTF.h",
+			"MU",
+			"YKU7OS2FB7/moc_SRTF.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -667,6 +685,21 @@
 		],
 		[
 			"/home/edilson/Escritorio/sistemas operativos/SO_Suite/SO_Suite/mainwindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/edilson/Escritorio/sistemas operativos/SO_Suite/SO_Suite/scheduler/FCFS.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/edilson/Escritorio/sistemas operativos/SO_Suite/SO_Suite/scheduler/SJF.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/edilson/Escritorio/sistemas operativos/SO_Suite/SO_Suite/scheduler/SRTF.cpp",
 			"MU",
 			null
 		]

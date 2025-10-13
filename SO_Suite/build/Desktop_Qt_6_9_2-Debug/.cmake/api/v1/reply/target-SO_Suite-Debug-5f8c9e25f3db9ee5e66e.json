@@ -47,7 +47,7 @@
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 23,
+				"line" : 26,
 				"parent" : 0
 			},
 			{
@@ -71,13 +71,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 62,
+				"line" : 65,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 45,
+				"line" : 48,
 				"parent" : 0
 			},
 			{
@@ -298,7 +298,10 @@
 			[
 				0,
 				1,
-				2
+				2,
+				5,
+				6,
+				7
 			]
 		}
 	],
@@ -390,7 +393,10 @@
 			[
 				0,
 				1,
-				2
+				2,
+				5,
+				6,
+				7
 			]
 		},
 		{
@@ -398,7 +404,7 @@
 			"sourceIndexes" : 
 			[
 				3,
-				5
+				8
 			]
 		},
 		{
@@ -412,14 +418,14 @@
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				6
+				9
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				7
+				10
 			]
 		}
 	],
@@ -453,6 +459,24 @@
 			"backtrace" : 4,
 			"path" : "mainwindow.ui",
 			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "scheduler/FCFS.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "scheduler/SJF.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "scheduler/SRTF.cpp",
+			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,

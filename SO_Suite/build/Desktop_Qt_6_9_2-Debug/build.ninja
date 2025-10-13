@@ -73,6 +73,30 @@ build CMakeFiles/SO_Suite.dir/mainwindow.cpp.o: CXX_COMPILER__SO_Suite_unscanned
   OBJECT_DIR = CMakeFiles/SO_Suite.dir
   OBJECT_FILE_DIR = CMakeFiles/SO_Suite.dir
 
+build CMakeFiles/SO_Suite.dir/scheduler/FCFS.cpp.o: CXX_COMPILER__SO_Suite_unscanned_Debug /home/edilson/Escritorio/sistemas$ operativos/SO_Suite/SO_Suite/scheduler/FCFS.cpp || cmake_object_order_depends_target_SO_Suite
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/SO_Suite.dir/scheduler/FCFS.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always -fPIC
+  INCLUDES = -I"/home/edilson/Escritorio/sistemas operativos/SO_Suite/SO_Suite/build/Desktop_Qt_6_9_2-Debug/SO_Suite_autogen/include" -isystem /opt/Qt/6.9.2/gcc_64/include/QtCore -isystem /opt/Qt/6.9.2/gcc_64/include -isystem /opt/Qt/6.9.2/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.9.2/gcc_64/include/QtWidgets -isystem /opt/Qt/6.9.2/gcc_64/include/QtGui
+  OBJECT_DIR = CMakeFiles/SO_Suite.dir
+  OBJECT_FILE_DIR = CMakeFiles/SO_Suite.dir/scheduler
+
+build CMakeFiles/SO_Suite.dir/scheduler/SJF.cpp.o: CXX_COMPILER__SO_Suite_unscanned_Debug /home/edilson/Escritorio/sistemas$ operativos/SO_Suite/SO_Suite/scheduler/SJF.cpp || cmake_object_order_depends_target_SO_Suite
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/SO_Suite.dir/scheduler/SJF.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always -fPIC
+  INCLUDES = -I"/home/edilson/Escritorio/sistemas operativos/SO_Suite/SO_Suite/build/Desktop_Qt_6_9_2-Debug/SO_Suite_autogen/include" -isystem /opt/Qt/6.9.2/gcc_64/include/QtCore -isystem /opt/Qt/6.9.2/gcc_64/include -isystem /opt/Qt/6.9.2/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.9.2/gcc_64/include/QtWidgets -isystem /opt/Qt/6.9.2/gcc_64/include/QtGui
+  OBJECT_DIR = CMakeFiles/SO_Suite.dir
+  OBJECT_FILE_DIR = CMakeFiles/SO_Suite.dir/scheduler
+
+build CMakeFiles/SO_Suite.dir/scheduler/SRTF.cpp.o: CXX_COMPILER__SO_Suite_unscanned_Debug /home/edilson/Escritorio/sistemas$ operativos/SO_Suite/SO_Suite/scheduler/SRTF.cpp || cmake_object_order_depends_target_SO_Suite
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/SO_Suite.dir/scheduler/SRTF.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always -fPIC
+  INCLUDES = -I"/home/edilson/Escritorio/sistemas operativos/SO_Suite/SO_Suite/build/Desktop_Qt_6_9_2-Debug/SO_Suite_autogen/include" -isystem /opt/Qt/6.9.2/gcc_64/include/QtCore -isystem /opt/Qt/6.9.2/gcc_64/include -isystem /opt/Qt/6.9.2/gcc_64/mkspecs/linux-g++ -isystem /opt/Qt/6.9.2/gcc_64/include/QtWidgets -isystem /opt/Qt/6.9.2/gcc_64/include/QtGui
+  OBJECT_DIR = CMakeFiles/SO_Suite.dir
+  OBJECT_FILE_DIR = CMakeFiles/SO_Suite.dir/scheduler
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target SO_Suite
@@ -81,7 +105,7 @@ build CMakeFiles/SO_Suite.dir/mainwindow.cpp.o: CXX_COMPILER__SO_Suite_unscanned
 #############################################
 # Link the executable SO_Suite
 
-build SO_Suite: CXX_EXECUTABLE_LINKER__SO_Suite_Debug CMakeFiles/SO_Suite.dir/SO_Suite_autogen/mocs_compilation.cpp.o CMakeFiles/SO_Suite.dir/main.cpp.o CMakeFiles/SO_Suite.dir/mainwindow.cpp.o | /opt/Qt/6.9.2/gcc_64/lib/libQt6Widgets.so.6.9.2 /opt/Qt/6.9.2/gcc_64/lib/libQt6Gui.so.6.9.2 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so /opt/Qt/6.9.2/gcc_64/lib/libQt6Core.so.6.9.2 || SO_Suite_autogen SO_Suite_autogen_timestamp_deps
+build SO_Suite: CXX_EXECUTABLE_LINKER__SO_Suite_Debug CMakeFiles/SO_Suite.dir/SO_Suite_autogen/mocs_compilation.cpp.o CMakeFiles/SO_Suite.dir/main.cpp.o CMakeFiles/SO_Suite.dir/mainwindow.cpp.o CMakeFiles/SO_Suite.dir/scheduler/FCFS.cpp.o CMakeFiles/SO_Suite.dir/scheduler/SJF.cpp.o CMakeFiles/SO_Suite.dir/scheduler/SRTF.cpp.o | /opt/Qt/6.9.2/gcc_64/lib/libQt6Widgets.so.6.9.2 /opt/Qt/6.9.2/gcc_64/lib/libQt6Gui.so.6.9.2 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so /opt/Qt/6.9.2/gcc_64/lib/libQt6Core.so.6.9.2 || SO_Suite_autogen SO_Suite_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_LIBRARIES = -Wl,-rpath,/opt/Qt/6.9.2/gcc_64/lib:  /opt/Qt/6.9.2/gcc_64/lib/libQt6Widgets.so.6.9.2  /opt/Qt/6.9.2/gcc_64/lib/libQt6Gui.so.6.9.2  /usr/lib/x86_64-linux-gnu/libGLX.so  /usr/lib/x86_64-linux-gnu/libOpenGL.so  /opt/Qt/6.9.2/gcc_64/lib/libQt6Core.so.6.9.2  -Wl,-rpath-link,/opt/Qt/6.9.2/gcc_64/lib
   OBJECT_DIR = CMakeFiles/SO_Suite.dir

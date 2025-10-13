@@ -1,9 +1,19 @@
 # ninja log v6
-14	1685	1760317932726669966	SO_Suite_autogen/timestamp	8d0cae9c999c4547
-14	1685	1760317932726669966	SO_Suite_autogen/mocs_compilation.cpp	8d0cae9c999c4547
-14	1685	1760317932726669966	/home/edilson/Escritorio/sistemas operativos/SO_Suite/SO_Suite/build/Desktop_Qt_6_9_2-Debug/SO_Suite_autogen/timestamp	8d0cae9c999c4547
-14	1685	1760317932726669966	/home/edilson/Escritorio/sistemas operativos/SO_Suite/SO_Suite/build/Desktop_Qt_6_9_2-Debug/SO_Suite_autogen/mocs_compilation.cpp	8d0cae9c999c4547
-1692	16594	1760317932743669848	CMakeFiles/SO_Suite.dir/main.cpp.o	afb50ea132439c80
+6	49	1760327681241712698	SO_Suite_autogen/timestamp	8d0cae9c999c4547
+6	49	1760327681241712698	/home/edilson/Escritorio/sistemas operativos/SO_Suite/SO_Suite/build/Desktop_Qt_6_9_2-Debug/SO_Suite_autogen/mocs_compilation.cpp	8d0cae9c999c4547
+6	49	1760327681241712698	SO_Suite_autogen/mocs_compilation.cpp	8d0cae9c999c4547
+50	4185	1760327681284711096	CMakeFiles/SO_Suite.dir/mainwindow.cpp.o	ce25f10d9dda1616
+6	49	1760327681241712698	/home/edilson/Escritorio/sistemas operativos/SO_Suite/SO_Suite/build/Desktop_Qt_6_9_2-Debug/SO_Suite_autogen/timestamp	8d0cae9c999c4547
+50	8205	1760326602411669477	CMakeFiles/SO_Suite.dir/main.cpp.o	afb50ea132439c80
+4185	4722	1760327685419557069	SO_Suite	2d7a30adce945cb8
+32	2698	1760326933488652615	CMakeFiles/SO_Suite.dir/scheduler/SJF.cpp.o	4f8f2359742b1685
 1688	17570	1760317932740669869	CMakeFiles/SO_Suite.dir/SO_Suite_autogen/mocs_compilation.cpp.o	b589f564b162d26f
-1693	17718	1760317932746669827	CMakeFiles/SO_Suite.dir/mainwindow.cpp.o	ce25f10d9dda1616
-17718	18539	1760317948771523953	SO_Suite	b30ce5ddf715ba42
+51	3498	1760327681286711022	CMakeFiles/SO_Suite.dir/scheduler/FCFS.cpp.o	f588398d81d89ee0
+6	46	1760329263614572458	SO_Suite_autogen/timestamp	8d0cae9c999c4547
+6	46	1760329263614572458	SO_Suite_autogen/mocs_compilation.cpp	8d0cae9c999c4547
+6	46	1760329263614572458	/home/edilson/Escritorio/sistemas operativos/SO_Suite/SO_Suite/build/Desktop_Qt_6_9_2-Debug/SO_Suite_autogen/timestamp	8d0cae9c999c4547
+6	46	1760329263614572458	/home/edilson/Escritorio/sistemas operativos/SO_Suite/SO_Suite/build/Desktop_Qt_6_9_2-Debug/SO_Suite_autogen/mocs_compilation.cpp	8d0cae9c999c4547
+49	7625	1760329263656571013	CMakeFiles/SO_Suite.dir/scheduler/SRTF.cpp.o	d6acd5756b4a5bc8
+47	7951	1760329263655571048	CMakeFiles/SO_Suite.dir/main.cpp.o	afb50ea132439c80
+47	8143	1760329263656444694	CMakeFiles/SO_Suite.dir/mainwindow.cpp.o	ce25f10d9dda1616
+8143	8718	1760329271751292482	SO_Suite	75f9b2a8c19692e3

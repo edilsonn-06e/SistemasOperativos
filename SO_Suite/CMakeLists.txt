@@ -17,6 +17,9 @@ set(PROJECT_SOURCES
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
+        scheduler/FCFS.cpp
+        scheduler/SJF.cpp
+        scheduler/SRTF.cpp
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

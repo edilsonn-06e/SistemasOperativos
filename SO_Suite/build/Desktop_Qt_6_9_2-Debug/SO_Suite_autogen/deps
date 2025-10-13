@@ -8,6 +8,12 @@ SO_Suite_autogen/timestamp: \
 	/home/edilson/Escritorio/sistemas\ operativos/SO_Suite/SO_Suite/main.cpp \
 	/home/edilson/Escritorio/sistemas\ operativos/SO_Suite/SO_Suite/mainwindow.cpp \
 	/home/edilson/Escritorio/sistemas\ operativos/SO_Suite/SO_Suite/mainwindow.h \
+	/home/edilson/Escritorio/sistemas\ operativos/SO_Suite/SO_Suite/scheduler/FCFS.cpp \
+	/home/edilson/Escritorio/sistemas\ operativos/SO_Suite/SO_Suite/scheduler/FCFS.h \
+	/home/edilson/Escritorio/sistemas\ operativos/SO_Suite/SO_Suite/scheduler/SJF.cpp \
+	/home/edilson/Escritorio/sistemas\ operativos/SO_Suite/SO_Suite/scheduler/SJF.h \
+	/home/edilson/Escritorio/sistemas\ operativos/SO_Suite/SO_Suite/scheduler/SRTF.cpp \
+	/home/edilson/Escritorio/sistemas\ operativos/SO_Suite/SO_Suite/scheduler/SRTF.h \
 	/opt/Qt/6.9.2/gcc_64/include/QtCore/q17memory.h \
 	/opt/Qt/6.9.2/gcc_64/include/QtCore/q20functional.h \
 	/opt/Qt/6.9.2/gcc_64/include/QtCore/q20iterator.h \
