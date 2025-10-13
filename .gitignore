@@ -1,0 +1,12 @@
+# Qt / CMake build folders
+build/
+cmake-build-*/
+*.user
+*.pro.user
+*.obj
+*.o
+*.log
+*.tmp
+*.autosave
+*.cache
+.DS_Store
