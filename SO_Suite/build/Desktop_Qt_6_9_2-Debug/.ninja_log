@@ -1,0 +1,9 @@
+# ninja log v6
+14	1685	1760317932726669966	SO_Suite_autogen/timestamp	8d0cae9c999c4547
+14	1685	1760317932726669966	SO_Suite_autogen/mocs_compilation.cpp	8d0cae9c999c4547
+14	1685	1760317932726669966	/home/edilson/Escritorio/sistemas operativos/SO_Suite/SO_Suite/build/Desktop_Qt_6_9_2-Debug/SO_Suite_autogen/timestamp	8d0cae9c999c4547
+14	1685	1760317932726669966	/home/edilson/Escritorio/sistemas operativos/SO_Suite/SO_Suite/build/Desktop_Qt_6_9_2-Debug/SO_Suite_autogen/mocs_compilation.cpp	8d0cae9c999c4547
+1692	16594	1760317932743669848	CMakeFiles/SO_Suite.dir/main.cpp.o	afb50ea132439c80
+1688	17570	1760317932740669869	CMakeFiles/SO_Suite.dir/SO_Suite_autogen/mocs_compilation.cpp.o	b589f564b162d26f
+1693	17718	1760317932746669827	CMakeFiles/SO_Suite.dir/mainwindow.cpp.o	ce25f10d9dda1616
+17718	18539	1760317948771523953	SO_Suite	b30ce5ddf715ba42
