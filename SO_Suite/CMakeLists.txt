@@ -13,19 +13,28 @@ find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 
 set(PROJECT_SOURCES
-        main.cpp
-        mainwindow.cpp
-        mainwindow.h
-        mainwindow.ui
-        scheduler/FCFS.cpp
-        scheduler/SJF.cpp
-        scheduler/SRTF.cpp
+    main.cpp
+    scheduler/FCFS.cpp
+    scheduler/SJF.cpp
+    scheduler/SRTF.cpp
+    scheduler/RR.cpp
+    scheduler/PRIORITY.cpp
 )
+
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(SO_Suite
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
+        scheduler/PRIORITY.h
+        scheduler/RR.cpp
+        scheduler/RR.h
+        scheduler/FCFS.h
+        scheduler/SJF.h
+        scheduler/SRTF.h
+        scheduler/PRIORITY.cpp
+
+
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET SO_Suite APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

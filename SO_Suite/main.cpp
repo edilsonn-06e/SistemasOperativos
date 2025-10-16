@@ -1,24 +1,138 @@
-#include <QApplication>
+#include <QCoreApplication>
 #include <QDebug>
+#include <QFile>
+#include <QTextStream>
+
+#include "scheduler/FCFS.h"
+#include "scheduler/SJF.h"
 #include "scheduler/SRTF.h"
+#include "scheduler/RR.h"
+#include "scheduler/PRIORITY.h"
+
+// 🔹 Función para imprimir promedios en consola
+static void imprimirPromedios(const char* nombre, const std::vector<Process>& v) {
+    if (v.empty()) {
+        qDebug() << "Promedios" << nombre << "→ (sin procesos)";
+        return;
+    }
+    double sumWT = 0.0, sumTAT = 0.0, sumRT = 0.0;
+    for (const auto& p : v) {
+        sumWT  += p.waitingTime;
+        sumTAT += p.turnaroundTime;
+        sumRT  += p.responseTime;
+    }
+    const double n = static_cast<double>(v.size());
+    qDebug() << "Promedios" << nombre
+             << "→ WT:"  << (sumWT  / n)
+             << "| TAT:" << (sumTAT / n)
+             << "| RT:"  << (sumRT  / n);
+}
+
+// 🔹 Función para exportar resultados al archivo
+static void exportarResultados(const char* nombre, const std::vector<Process>& v, QTextStream& out) {
+    out << "\n===== " << nombre << " =====\n";
+    out << "PID\tInicio\tFin\tWT\tTAT\tRT\tEstado\n";
+
+    for (const auto& p : v) {
+        out << p.pid << "\t"
+            << p.startTime << "\t"
+            << p.finishTime << "\t"
+            << p.waitingTime << "\t"
+            << p.turnaroundTime << "\t"
+            << p.responseTime << "\t"
+            << (p.state == ProcState::TERMINATED ? "Terminado" : "Activo") << "\n";
+    }
+
+    double sumWT = 0, sumTAT = 0, sumRT = 0;
+    for (const auto &p : v) {
+        sumWT  += p.waitingTime;
+        sumTAT += p.turnaroundTime;
+        sumRT  += p.responseTime;
+    }
+    const double n = static_cast<double>(v.size());
+    out << "Promedios → WT:" << (sumWT/n)
+        << " | TAT:" << (sumTAT/n)
+        << " | RT:" << (sumRT/n) << "\n";
+}
 
 int main(int argc, char *argv[]) {
-    QApplication app(argc, argv);
+    QCoreApplication app(argc, argv);
 
-    SRTF scheduler;
+    qDebug() << "==============================";
+    qDebug() << "   SIMULADOR DE PLANIFICACIÓN ";
+    qDebug() << "==============================";
 
-    scheduler.addProcess(Process(1, 0, 7, 2));
-    scheduler.addProcess(Process(2, 2, 4, 1));
-    scheduler.addProcess(Process(3, 4, 1, 3));
-
-    auto result = scheduler.run();
-
-    qDebug() << "----- RESULTADO FINAL -----";
-    for (auto &p : result) {
-        qDebug() << "PID:" << p.pid
-                 << "Estado:"
-                 << (p.state == ProcState::TERMINATED ? "Terminado" : "Activo");
+    // 🔹 Crear el archivo de salida
+    QFile file("resultados_planificador.txt");
+    if (!file.open(QIODevice::WriteOnly | QIODevice::Text)) {
+        qDebug() << "No se pudo crear el archivo de resultados";
+        return -1;
     }
+    QTextStream out(&file);
+    out << "==============================\n";
+    out << "   SIMULADOR DE PLANIFICACIÓN\n";
+    out << "==============================\n";
+
+    // ====== FCFS ======
+    qDebug() << "\n===== FCFS =====";
+    FCFS fcfs;
+    fcfs.addProcess(Process(1, 0, 5, 2));
+    fcfs.addProcess(Process(2, 2, 3, 1));
+    fcfs.addProcess(Process(3, 4, 1, 3));
+    auto resultadoFCFS = fcfs.run();
+    imprimirPromedios("FCFS", resultadoFCFS);
+    exportarResultados("FCFS", resultadoFCFS, out);
+
+    // ====== SJF ======
+    qDebug() << "\n===== SJF =====";
+    SJF sjf;
+    sjf.addProcess(Process(1, 0, 5, 2));
+    sjf.addProcess(Process(2, 2, 3, 1));
+    sjf.addProcess(Process(3, 4, 1, 3));
+    auto resultadoSJF = sjf.run();
+    imprimirPromedios("SJF", resultadoSJF);
+    exportarResultados("SJF", resultadoSJF, out);
+
+    // ====== SRTF ======
+    qDebug() << "\n===== SRTF =====";
+    SRTF srtf;
+    srtf.addProcess(Process(1, 0, 7, 2));
+    srtf.addProcess(Process(2, 2, 4, 1));
+    srtf.addProcess(Process(3, 4, 1, 3));
+    auto resultadoSRTF = srtf.run();
+    imprimirPromedios("SRTF", resultadoSRTF);
+    exportarResultados("SRTF", resultadoSRTF, out);
+
+    // ====== ROUND ROBIN ======
+    qDebug() << "\n===== ROUND ROBIN =====";
+    RR rr(2); // quantum = 2
+    rr.addProcess(Process(1, 0, 5, 2));
+    rr.addProcess(Process(2, 1, 3, 1));
+    rr.addProcess(Process(3, 2, 1, 3));
+    auto resultadoRR = rr.run();
+    imprimirPromedios("RR", resultadoRR);
+    exportarResultados("ROUND ROBIN", resultadoRR, out);
+
+    // ====== PRIORIDADES ======
+    qDebug() << "\n===== PRIORIDADES =====";
+    PRIORITY prio;
+    prio.addProcess(Process(1, 0, 4, 3)); // menor número = mayor prioridad
+    prio.addProcess(Process(2, 1, 3, 1));
+    prio.addProcess(Process(3, 2, 2, 2));
+    auto resultadoPRIO = prio.run();
+    imprimirPromedios("PRIORIDAD", resultadoPRIO);
+    exportarResultados("PRIORIDADES", resultadoPRIO, out);
+
+    // 🔹 Cerrar archivo
+    out << "\n==============================\n";
+    out << "   SIMULACIÓN FINALIZADA OK\n";
+    out << "==============================\n";
+    file.close();
+
+    qDebug() << "\nResultados exportados a 'resultados_planificador.txt'";
+    qDebug() << "==============================";
+    qDebug() << "   SIMULACIÓN FINALIZADA OK   ";
+    qDebug() << "==============================";
 
     return 0;
 }
