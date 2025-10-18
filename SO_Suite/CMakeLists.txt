@@ -14,11 +14,15 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 
 set(PROJECT_SOURCES
     main.cpp
+    mainwindow.cpp
+    mainwindow.h
+    mainwindow.ui
     scheduler/FCFS.cpp
     scheduler/SJF.cpp
     scheduler/SRTF.cpp
     scheduler/RR.cpp
     scheduler/PRIORITY.cpp
+
 )
 
 
@@ -33,6 +37,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         scheduler/SJF.h
         scheduler/SRTF.h
         scheduler/PRIORITY.cpp
+        core/Process.h
+
 
 
     )
