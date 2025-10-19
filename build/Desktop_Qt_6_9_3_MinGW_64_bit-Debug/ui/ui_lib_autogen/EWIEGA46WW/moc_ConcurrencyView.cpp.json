@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "ConcurrencyView",
+            "lineNumber": 14,
+            "object": true,
+            "qualifiedClassName": "ConcurrencyView",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "ConcurrencyView.h",
+    "outputRevision": 69
+}

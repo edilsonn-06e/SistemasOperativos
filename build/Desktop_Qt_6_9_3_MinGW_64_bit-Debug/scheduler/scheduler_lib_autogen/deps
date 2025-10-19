@@ -1,0 +1,14 @@
+scheduler_lib_autogen/timestamp: \
+	C:/Users/Pedro/Desktop/SO_Suite_Full/SO_Suite_Full/scheduler/CMakeLists.txt \
+	C:/Users/Pedro/Desktop/SO_Suite_Full/SO_Suite_Full/scheduler/FCFS.cpp \
+	C:/Users/Pedro/Desktop/SO_Suite_Full/SO_Suite_Full/scheduler/FCFS.h \
+	C:/Users/Pedro/Desktop/SO_Suite_Full/SO_Suite_Full/scheduler/PRIORITY.cpp \
+	C:/Users/Pedro/Desktop/SO_Suite_Full/SO_Suite_Full/scheduler/PRIORITY.h \
+	C:/Users/Pedro/Desktop/SO_Suite_Full/SO_Suite_Full/scheduler/RR.cpp \
+	C:/Users/Pedro/Desktop/SO_Suite_Full/SO_Suite_Full/scheduler/RR.h \
+	C:/Users/Pedro/Desktop/SO_Suite_Full/SO_Suite_Full/scheduler/SJF.cpp \
+	C:/Users/Pedro/Desktop/SO_Suite_Full/SO_Suite_Full/scheduler/SJF.h \
+	C:/Users/Pedro/Desktop/SO_Suite_Full/SO_Suite_Full/scheduler/SRTF.cpp \
+	C:/Users/Pedro/Desktop/SO_Suite_Full/SO_Suite_Full/scheduler/SRTF.h \
+	C:/Users/Pedro/Desktop/SO_Suite_Full/SO_Suite_Full/scheduler/Scheduler.h \
+	C:/Qt/Tools/CMake_64/bin/cmake.exe

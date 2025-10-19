@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "GanttView",
+            "lineNumber": 6,
+            "object": true,
+            "qualifiedClassName": "GanttView",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "GanttView.h",
+    "outputRevision": 69
+}

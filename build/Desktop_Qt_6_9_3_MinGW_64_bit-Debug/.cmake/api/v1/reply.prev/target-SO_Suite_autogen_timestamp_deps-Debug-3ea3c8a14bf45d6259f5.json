@@ -1,0 +1,50 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "core_lib::@57760688d1f824db5d9c"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "scheduler_lib::@fabbfce9d1a1446bd1da"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "concurrency_lib::@570c1f3505a4033b9074"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "memory_lib::@d5056488c8308e14ee1a"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "ui_lib::@19b8bf288843bf358763"
+		}
+	],
+	"id" : "SO_Suite_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+	"isGeneratorProvided" : true,
+	"name" : "SO_Suite_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

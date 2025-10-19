@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "MetricsView",
+            "lineNumber": 7,
+            "object": true,
+            "qualifiedClassName": "MetricsView",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "MetricsView.h",
+    "outputRevision": 69
+}

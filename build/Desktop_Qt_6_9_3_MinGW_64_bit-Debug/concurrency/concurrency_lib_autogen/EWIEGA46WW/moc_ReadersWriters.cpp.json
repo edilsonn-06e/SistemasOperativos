@@ -1,0 +1,38 @@
+{
+    "classes": [
+        {
+            "className": "ReadersWriters",
+            "lineNumber": 7,
+            "object": true,
+            "qualifiedClassName": "ReadersWriters",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "startedReading",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "startedWriting",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "name": "finished",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "ReadersWriters.h",
+    "outputRevision": 69
+}

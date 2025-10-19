@@ -1,0 +1,14 @@
+memory_lib_autogen/timestamp: \
+	C:/Users/Pedro/Desktop/SO_Suite_Full/SO_Suite_Full/memory/CMakeLists.txt \
+	C:/Users/Pedro/Desktop/SO_Suite_Full/SO_Suite_Full/memory/FIFO.cpp \
+	C:/Users/Pedro/Desktop/SO_Suite_Full/SO_Suite_Full/memory/FIFO.h \
+	C:/Users/Pedro/Desktop/SO_Suite_Full/SO_Suite_Full/memory/LRU.cpp \
+	C:/Users/Pedro/Desktop/SO_Suite_Full/SO_Suite_Full/memory/LRU.h \
+	C:/Users/Pedro/Desktop/SO_Suite_Full/SO_Suite_Full/memory/OPT.cpp \
+	C:/Users/Pedro/Desktop/SO_Suite_Full/SO_Suite_Full/memory/OPT.h \
+	C:/Users/Pedro/Desktop/SO_Suite_Full/SO_Suite_Full/memory/PageTable.cpp \
+	C:/Users/Pedro/Desktop/SO_Suite_Full/SO_Suite_Full/memory/PageTable.h \
+	C:/Users/Pedro/Desktop/SO_Suite_Full/SO_Suite_Full/memory/ReplacementPolicy.h \
+	C:/Users/Pedro/Desktop/SO_Suite_Full/SO_Suite_Full/memory/TLB.cpp \
+	C:/Users/Pedro/Desktop/SO_Suite_Full/SO_Suite_Full/memory/TLB.h \
+	C:/Qt/Tools/CMake_64/bin/cmake.exe

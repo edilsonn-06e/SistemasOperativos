@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>SO Suite</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTabWidget" name="tabs">
+      <property name="tabPosition">
+       <enum>QTabWidget::North</enum>
+      </property>
+      <widget class="QWidget" name="tabPlan">
+       <attribute name="title">
+        <string>Planificación</string>
+       </attribute>
+       <layout class="QVBoxLayout">
+        <item>
+         <widget class="QWidget" name="planContainer"/>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tabConc">
+       <attribute name="title">
+        <string>Concurrencia</string>
+       </attribute>
+       <layout class="QVBoxLayout">
+        <item><widget class="QWidget" name="concContainer"/></item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tabMem">
+       <attribute name="title">
+        <string>Memoria</string>
+       </attribute>
+       <layout class="QVBoxLayout">
+        <item><widget class="QWidget" name="memContainer"/></item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

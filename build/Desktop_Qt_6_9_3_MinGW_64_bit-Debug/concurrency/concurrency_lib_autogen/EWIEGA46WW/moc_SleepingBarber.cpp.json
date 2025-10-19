@@ -1,0 +1,38 @@
+{
+    "classes": [
+        {
+            "className": "SleepingBarber",
+            "lineNumber": 7,
+            "object": true,
+            "qualifiedClassName": "SleepingBarber",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "sleeping",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "startedCutting",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "name": "finished",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "SleepingBarber.h",
+    "outputRevision": 69
+}

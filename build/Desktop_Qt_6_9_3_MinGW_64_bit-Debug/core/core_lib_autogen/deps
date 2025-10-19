@@ -1,0 +1,5 @@
+core_lib_autogen/timestamp: \
+	C:/Users/Pedro/Desktop/SO_Suite_Full/SO_Suite_Full/core/CMakeLists.txt \
+	C:/Users/Pedro/Desktop/SO_Suite_Full/SO_Suite_Full/core/Metrics.h \
+	C:/Users/Pedro/Desktop/SO_Suite_Full/SO_Suite_Full/core/Process.h \
+	C:/Qt/Tools/CMake_64/bin/cmake.exe

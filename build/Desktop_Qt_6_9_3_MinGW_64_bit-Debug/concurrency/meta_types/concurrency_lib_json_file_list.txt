@@ -1,0 +1,4 @@
+C:/Users/Pedro/Desktop/SO_Suite_Full/SO_Suite_Full/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/concurrency/concurrency_lib_autogen/include/../EWIEGA46WW/moc_ProducerConsumer.cpp.json
+C:/Users/Pedro/Desktop/SO_Suite_Full/SO_Suite_Full/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/concurrency/concurrency_lib_autogen/include/../EWIEGA46WW/moc_ReadersWriters.cpp.json
+C:/Users/Pedro/Desktop/SO_Suite_Full/SO_Suite_Full/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/concurrency/concurrency_lib_autogen/include/../EWIEGA46WW/moc_SemaphoreDemo.cpp.json
+C:/Users/Pedro/Desktop/SO_Suite_Full/SO_Suite_Full/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/concurrency/concurrency_lib_autogen/include/../EWIEGA46WW/moc_SleepingBarber.cpp.json

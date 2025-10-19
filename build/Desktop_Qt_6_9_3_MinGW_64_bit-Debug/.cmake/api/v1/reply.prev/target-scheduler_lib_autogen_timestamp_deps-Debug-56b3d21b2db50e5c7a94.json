@@ -1,0 +1,27 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"scheduler/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"id" : "scheduler_lib_autogen_timestamp_deps::@fabbfce9d1a1446bd1da",
+	"isGeneratorProvided" : true,
+	"name" : "scheduler_lib_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "scheduler",
+		"source" : "scheduler"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

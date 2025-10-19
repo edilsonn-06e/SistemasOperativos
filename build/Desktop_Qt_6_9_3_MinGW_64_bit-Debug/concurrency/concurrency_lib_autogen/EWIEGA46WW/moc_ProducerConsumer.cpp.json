@@ -1,0 +1,68 @@
+{
+    "classes": [
+        {
+            "className": "ProducerConsumer",
+            "lineNumber": 8,
+            "object": true,
+            "qualifiedClassName": "ProducerConsumer",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "value",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "produced",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "value",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "consumed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "buffer",
+                            "type": "QList<int>"
+                        },
+                        {
+                            "name": "head",
+                            "type": "int"
+                        },
+                        {
+                            "name": "tail",
+                            "type": "int"
+                        },
+                        {
+                            "name": "count",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "bufferUpdated",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "ProducerConsumer.h",
+    "outputRevision": 69
+}

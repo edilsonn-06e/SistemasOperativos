@@ -1,0 +1,27 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"memory/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"id" : "memory_lib_autogen_timestamp_deps::@d5056488c8308e14ee1a",
+	"isGeneratorProvided" : true,
+	"name" : "memory_lib_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "memory",
+		"source" : "memory"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}
